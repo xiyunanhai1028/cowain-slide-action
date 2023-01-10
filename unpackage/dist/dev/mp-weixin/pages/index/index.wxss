@@ -1,0 +1,84 @@
+
+.container {
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(245, 246, 248, 1);
+}
+.scroll-view {
+	width: 100%;
+	height: 100%;
+}
+.card {
+	margin-left: 24rpx;
+	width: 702rpx;
+	height: 171rpx;
+	padding: 28rpx 24rpx;
+	box-sizing: border-box;
+	border-radius: 24rpx;
+	background-color: white;
+}
+.header-wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.title-wrap {
+	display: flex;
+	align-items: center;
+}
+.dot {
+	margin-right: 11rpx;
+	width: 16rpx;
+	height: 16rpx;
+	background-color: rgba(222, 11, 11, 1);
+	border-radius: 8rpx;
+}
+.title {
+	font-size: 32rpx;
+	font-family: PingFangSC-Medium, PingFang SC;
+	font-weight: 500;
+	color: #323233;
+	line-height: 45rpx;
+}
+.remark {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 26rpx;
+}
+.time {
+	font-size: 26rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: $txt-black-204;
+	line-height: 36rpx;
+}
+.msg {
+	width: 540rpx;
+	font-size: 26rpx;
+	font-family: PingFangSC-Regular, PingFang SC;
+	font-weight: 400;
+	color: #666666;
+	line-height: 36rpx;
+
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.delete-wrap {
+	position: absolute;
+	right: 0px;
+	top: 0;
+	width: 180rpx;
+	height: 171rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 999;
+}
+.icon-delete {
+	width: 80rpx;
+	height: 80rpx;
+	object-fit: cover;
+}
+

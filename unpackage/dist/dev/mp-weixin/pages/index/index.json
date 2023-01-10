@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "cowain-slide-action": "/uni_modules/cowain-slide-action/components/cowain-slide-action/cowain-slide-action"
+  }
+}
